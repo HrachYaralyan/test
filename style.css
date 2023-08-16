@@ -1,0 +1,145 @@
+* {
+  padding: 0px;
+  margin: 0px;
+  box-sizing: border-box;
+}
+
+.phonefon{
+  border: 2px solid red;
+  background-image: url("./img/backsec1.png");
+  height: 200px;
+}
+
+header {
+  margin-top: 15px;
+  width: 100%;
+  min-height: 100px;
+  display: flex;
+  justify-content: center;
+}
+header .header {
+  width: 90%;
+  min-height: 100px;
+  display: flex;
+  justify-content: space-between;
+}
+header .header .hrefs {
+  display: flex;
+  justify-content: space-between;
+  width: 50%;
+  margin-top: 20px;
+}
+header .header .bars {
+  display: none;
+}
+
+a {
+  text-decoration: none;
+  color: black;
+}
+a:hover {
+  padding-bottom: 5px;
+  border-bottom: 3px solid blue;
+}
+
+.box {
+  width: 100%;
+  min-height: 500px;
+  display: flex;
+  justify-content: center;
+}
+.box .box2 {
+  width: 80%;
+  min-height: 500px;
+}
+.box .box2 .wrappers {
+  min-height: 150px;
+  width: 100%;
+  display: flex;
+  justify-content: space-between;
+}
+.box .box2 .wrappers .wrtx {
+  width: 30%;
+  text-align: center;
+}
+.box .box2 .wrappers .wrtx div img {
+  width: 130px;
+}
+.box .box2 .wrappers .wrtx div h3 {
+  color: blue;
+}
+.box .box2 .shopingcar {
+  display: flex;
+  text-align: center;
+  margin-top: 60px;
+  justify-content: space-between;
+}
+.box .box2 .shopingcar div {
+  width: 40%;
+}
+.box .box2 .shopingcar div div {
+  width: 100%;
+}
+.box .box2 .shopingcar div div img {
+  width: 300px;
+}
+.box .box2 .shopingcar div h1 {
+  text-align: center;
+  opacity: 80%;
+  width: 100%;
+}
+.box .box2 .shopingcar div h2 {
+  opacity: 80%;
+  text-align: left;
+  margin-top: 50px;
+}
+.box .box2 .shopingcar div p {
+  text-align: left;
+  margin-top: 20px;
+  width: 100%;
+  opacity: 80%;
+}
+.box .box2 .gic {
+  width: 100%;
+  margin-top: 20px;
+  background-color: rgb(219, 219, 219);
+  height: 3px;
+}
+.box .box2 .cr {
+  text-align: center;
+  opacity: 80%;
+  margin-top: 20px;
+  margin-bottom: 20px;
+}
+
+.gic2 {
+  width: 100%;
+  margin-top: 20px;
+  background-color: rgb(219, 219, 219);
+  height: 3px;
+  display: none;
+}
+
+@media screen and (max-width: 650px) {
+  .href {
+    display: none;
+  }
+  .bars {
+    display: inline !important;
+  }
+  .wrappers {
+    flex-direction: column;
+  }
+  .shopingcar {
+    flex-direction: column;
+  }
+  .gic2 {
+    display: inline;
+  }
+  .wrtx {
+    display: flex;
+  }
+  .tx {
+    margin-left: 20px;
+  }
+}/*# sourceMappingURL=style.css.map */
